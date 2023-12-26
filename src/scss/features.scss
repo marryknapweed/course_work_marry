@@ -1,0 +1,30 @@
+.features_cards {
+}
+.features_cards_up {
+    display: flex;
+    margin-bottom: 90px;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    gap: 30px;
+}
+.features_card {
+    max-width: 370px;
+    text-align: center;
+}
+.features_card_icon {
+    margin-bottom: 50px;
+}
+.features_card_info {
+}
+.features_card_title {
+    margin-bottom: 40px;
+}
+.features_card_text {
+}
+.features_card_down {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    gap: 30px;
+}
+
