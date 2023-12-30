@@ -60,9 +60,14 @@
     .features_cards_up {
         gap: 20px;
         margin-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
     .features_cards_down {
         gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .features_card_icon img {
         width: 85px;
