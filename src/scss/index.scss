@@ -1,37 +1,41 @@
-@import './cdn';
-@import './fonts';
-@import './mixins';
-@import './variables';
-@import './download.scss';
-@import './features.scss';
-@import './footer.scss';
-@import './header.scss';
-@import './main.scss';
-@import './outTeam.scss';
-@import './testimonials.scss';
-@import './works.scss';
+@import "./cdn";
+@import "./fonts";
+@import "./mixins";
+@import "./variables";
+@import "./download.scss";
+@import "./features.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./main.scss";
+@import "./outTeam.scss";
+@import "./testimonials.scss";
+@import "./works.scss";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 html {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 
 section {
-    padding: 114px 0;
+  padding: 114px 0;
 }
 
 .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-    position: relative;
-    z-index: 15;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  position: relative;
+  z-index: 15;
+}
+
+a {
+  cursor: pointer;
 }
