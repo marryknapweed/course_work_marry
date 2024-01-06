@@ -102,3 +102,29 @@
   background: #ff4343;
   box-shadow: 4px 4px 30px 0px #ff4343;
 }
+
+@media (max-width: 1024px) {
+  .main {
+    padding: 0px 0px 125px 0px;
+  }
+  .header_wrap {
+    margin-bottom: 157px;
+  }
+  .header_navigation_list_item a {
+    width: 110px;
+  }
+  .main_info {
+    margin-bottom: 90px;
+  }
+  .main_title {
+    font-size: 48px;
+  }
+  .main_info_text p {
+    font-size: 18px;
+  }
+  .main_button a {
+    width: 314px;
+  }
+}
+@media (max-width: 320px) {
+}
