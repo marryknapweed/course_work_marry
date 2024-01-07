@@ -1,4 +1,4 @@
-// import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";no
+// import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
 
 // const swiper = new Swiper(".swiper", {
 //   // Optional parameters
@@ -48,11 +48,18 @@ const swiper = new Swiper(".swiper", {
   //   delay: 3000,
   //   disableOnInteraction: false,
   // },
-  speed: 2000,
+  // speed: 2000,
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    320: {
+      // navigation: false,
+      autoHeight: false,
+    },
   },
 
   // And if we need scrollbar
