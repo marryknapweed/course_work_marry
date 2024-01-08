@@ -1,19 +1,14 @@
+.contact_section {
+  background: #353c65;
+  padding: 71px 0px;
+}
+
 .contact_wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   grid-gap: 30px;
 }
-
-.contact_section {
-  background: #353c65;
-  padding: 71px 0px;
-}
-.container {
-}
-.contact_wrap {
-}
-
 .contact_title {
   text-align: center;
   color: #fff;
@@ -22,14 +17,7 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-// .contact_navigation_title {
-//   text-align: center;
-//   color: #fff;
-//   font-family: "Raleway";
-//   font-size: 18px;
-//   font-weight: 700;
-//   text-transform: uppercase;
-// }
+
 .contact_navigation_text {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -52,22 +40,15 @@
   justify-content: center;
   gap: 25px;
 }
-.contact_icon {
-}
-.fa-brands {
-}
-.fa-square-facebook {
-}
+
 .facebook_contact:hover {
   color: #c6cbcd !important;
 }
-.fa-square-twitter {
-}
+
 .twitter_contact:hover {
   color: #c6cbcd !important;
 }
-.fa-linkedin:hover {
-}
+
 .linkedin_contact:hover {
   color: #c6cbcd !important;
 }

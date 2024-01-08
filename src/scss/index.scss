@@ -2,15 +2,15 @@
 @import "./fonts";
 @import "./mixins";
 @import "./variables";
-@import "./download.scss";
-@import "./features.scss";
 @import "./footer.scss";
-@import "./header.scss";
-@import "./main.scss";
+@import "./nav.scss";
 @import "./outTeam.scss";
 @import "./testimonials.scss";
 @import "./works.scss";
 @import "./contact.scss";
+@import "./header.scss";
+@import "./download.scss";
+@import "./features.scss";
 
 * {
   margin: 0;
@@ -23,7 +23,6 @@
 html {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  // overflow: hidden;
 }
 
 section {
